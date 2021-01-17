@@ -27,9 +27,7 @@ int jean_price = 1
 
 int expected_price = (quantity_phones * phone_price) + (quantity_jeans * jean_price)
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://demowebshop.tricentis.com/')
+WebUI.openBrowser('http://demowebshop.tricentis.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/a_Log in'))
 
